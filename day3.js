@@ -13,19 +13,19 @@ var x=4567
 let res=x/1000
 console.log(Math.floor(res))
 
-//If Else || If Elif Else
+//If Else || If Else || Else
 
 var x=5
-if(x>10)
+if(x>10)                             //check if x is greater than 5 or not
 {
     console.log("x is greater than 10")
 
 }
-else if(x==10)
+else if(x==10)                    //check if x is equal to 10 or not
 {
-    console.log("x is eual to 10")
+    console.log("x is equal to 10")
 }
-else
+else                              //if all the condn mentioned above fails this condn will be used
 {
     console.log("x is less than 10")
 }
